@@ -14,3 +14,9 @@ def get_familia():
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
+
+@app.get("/frutas")
+def get_superheroes():
+    rows = ["Apple", "Banana", "Strawberry", "Orange"]
+    return rows
