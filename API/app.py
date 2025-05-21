@@ -17,6 +17,11 @@ def get_superheroes():
 
 
 @app.get("/frutas")
-def get_superheroes():
+def get_furtas():
     rows = ["Apple", "Banana", "Strawberry", "Orange"]
+    return rows
+
+@app.get("/furnitures")
+def get_furtas():
+    rows = ["Chair", "Bed", "TV", "Kitchen"]
     return rows
